@@ -1,0 +1,66 @@
+.searchResults {
+    border: 1px solid pink;
+}
+.placeTitle {
+    font-size: 1.8rem;
+}
+
+.placeDetail {
+    gap: 5px;
+}
+.addFromMapsForm {
+    display: flex;
+    flex-direction: column;
+}
+
+.addFromMaps {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: orange;
+}
+
+.nameInput {
+    border: 1px solid orange;
+    border-radius: .5em;
+    width: 320px;
+    height: 60px;
+}
+.nameLabel {
+    width: 300px;
+    height: 20px;
+
+    display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+
+.subBtn {
+    text-align: left;
+}
+
+.mapResults {
+    margin: 1rem;
+}
+
+.category {
+    margin: .25rem;
+}
+
+.googlePlaceSearch {
+    display: flex;
+    flex-direction: column;
+    margin: 1em;
+    padding: 1em;
+    justify-content: center;
+    align-items: center;
+}
+
+.googleSearchInfo{
+    font-size: 1.15rem;
+    line-height: 40px;
+}
+
+

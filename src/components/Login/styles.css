@@ -1,0 +1,10 @@
+.log-in-create {
+    display:flex;
+    flex-direction: column;
+    width: fit-content;
+}
+.log-in, .create-account {
+    text-align: right;
+}
+
+

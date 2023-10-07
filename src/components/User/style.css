@@ -1,0 +1,16 @@
+.user {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    border: 1px solid orange;
+
+}
+
+.favs, .reviews, .post {
+    border: 1px solid orange;
+}
+
+
+.updateRev {
+    border: 1px solid orange(241, 207, 207);
+}

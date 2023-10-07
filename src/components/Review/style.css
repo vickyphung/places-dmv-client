@@ -1,0 +1,19 @@
+/* .reviewSubmitBtn {
+} */
+
+
+.addReviewText {
+    width: 400px;
+    border: 2px solid black;
+    height: 100px;
+    font-size: 1em;
+}
+
+.reviewModal {
+    display: flex;
+    flex-direction: column;
+    background-color: orange;
+    align-items: center;
+    justify-content: center;
+    /* width: 500px; */
+}

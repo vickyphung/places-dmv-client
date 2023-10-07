@@ -1,0 +1,21 @@
+.googleTextSearch{
+    display:flex;
+    flex-direction: column;
+    margin: 1em;
+    padding: 1em;
+}
+
+
+.searchInput {
+    height: 80px;
+    font-size: 1.25rem;
+    padding: 10px;
+    width: 250px;
+}
+
+.submit {
+    width: 274px;
+    padding: 10px;
+    font-size: 1.25rem;
+    margin-top: .5em;
+}
