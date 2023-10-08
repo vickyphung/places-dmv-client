@@ -3,7 +3,7 @@ import React, { useEffect, useState } from "react";
 import axios from "axios";
 import "./style.css";
 // import AddReview from "../Review/AddReview";
-import AddFavorite from "../Favorite/AddFavorite";
+// import AddFavorite from "../Favorite/AddFavorite";
 // import Filter from "./Filter";
 
 const Places = (props) => {
@@ -40,9 +40,9 @@ const Places = (props) => {
     fetchData();
   }, [props.setFavoriteId]);
 
-  const delPost = (data) => {
-    props.setDeleteId(data);
-  };
+  // const delPost = (data) => {
+  //   props.setDeleteId(data);
+  // };
 
   return (
     <div className="places-container">
