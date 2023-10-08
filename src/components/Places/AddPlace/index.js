@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import axios from "axios";
 
 const AddPlace = (props) => {
-  const fakeUserId = "62bbf966c4c434b12444023d";
+  // const fakeUserId = "62bbf966c4c434b12444023d";
 
 const [userId, setUserId] = useState("");
 

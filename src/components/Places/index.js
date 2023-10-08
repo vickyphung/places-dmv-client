@@ -77,7 +77,7 @@ const Places = (props) => {
                   </p>
                 </div>
 
-                <a href={place.url}>{place.url}</a>
+                <a href={place.url}>Website</a>
 
                 <div className="place-details">
                   <div className="tags">
