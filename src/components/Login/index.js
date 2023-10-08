@@ -17,7 +17,12 @@ const Login = () => {
 
   const handleSubmit = async (event) => {
     event.preventDefault();
-    const response = await axios.post("http://localhost:8800/user/", formData);
+    // const response = await axios.post("http://localhost:8800/user/", formData);
+
+    
+    const response = await axios.post("https://placeswithbear.herokuapp.com", formData);
+
+
     console.log(response);
     localStorage.setItem("jwtToken", response.data.jwtToken);
   };
@@ -36,7 +41,7 @@ const Login = () => {
 
   const handleLoginSubmit = async (event) => {
     event.preventDefault();
-    const response = await axios.post("http://localhost:8800/user/login", {
+    const response = await axios.post("https://placeswithbear.herokuapp.com/user/login", {
       // const response = await axios.post("http://localhost:8800/user/login", {
       name: loginFormData.loginName,
       password: loginFormData.loginPassword,

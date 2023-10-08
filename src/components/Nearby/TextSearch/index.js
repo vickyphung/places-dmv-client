@@ -17,12 +17,12 @@ const TextSearch = (props) => {
         event.preventDefault();
 
         
-        const response = await axios.get(`http://localhost:8800/search/textSearch/${formData}`)
+        // const response = await axios.get(`http://localhost:8800/search/textSearch/${formData}`)
 
-        // const response = await axios.get(
-        //   `${
-        //     "https://placeswithbear.herokuapp.com" || "localhost:8800"
-        //   }/search/textSearch/${formData}`)
+        const response = await axios.get(
+          `${
+            "https://placeswithbear.herokuapp.com" || "localhost:8800"
+          }/search/textSearch/${formData}`)
 
         console.log(response);
         setResults(response.data.results);

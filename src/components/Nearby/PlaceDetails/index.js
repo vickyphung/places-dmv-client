@@ -28,9 +28,9 @@ const PlaceDetails = (props) => {
     const fetchData = async () => {
       if (props.detailsId) {
         const response = await axios.get(
-          // `https://placeswithbear.herokuapp.com/search/details/${props.detailsId}`
+          `https://placeswithbear.herokuapp.com/search/details/${props.detailsId}`
 
-          `http://localhost:8800/search/details/${props.detailsId}`
+          // `http://localhost:8800/search/details/${props.detailsId}`
 
         );
         console.log(response);

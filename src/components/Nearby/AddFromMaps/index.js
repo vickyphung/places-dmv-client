@@ -46,9 +46,9 @@ useEffect(() => {
     event.preventDefault();
     // const response = await axios.post("https://placeswithbear.herokuapp.com/places/add", {
 
-    // const response = await axios.post(`${'https://placeswithbear.herokuapp.com' || 'localhost:8800'}/places/add`, {
+    const response = await axios.post(`${'https://placeswithbear.herokuapp.com' || 'localhost:8800'}/places/add`, {
 
-    const response = await axios.post(`http://localhost:8800/places/add`, {
+    // const response = await axios.post(`http://localhost:8800/places/add`, {
 
       // name: placeFormData.name,
       name:  `${props.placeName}`,
