@@ -23,17 +23,17 @@ const AddFavorite = (props) => {
   {
     // useEffect(() => {
     const addFav = async () => {
-      // const response = await axios.put(
-      //   `https://placeswithbear.herokuapp.com/user/favorite/put/${props.userId}/${props.placeId}`
-      // );
+      const response = await axios.put(
+        `https://placeswithbear.herokuapp.com/user/favorite/put/${props.userId || fakeUserId}/${props.placeId}`
+      );
 
       // const response = await axios.put(
       //   `http://localhost:8800/user/favorite/put/${props.userId}/${props.placeId}`
       // );
 
-      const response = await axios.put(
-        `http://localhost:8800/user/favorite/put/${fakeUserId}/${props.placeId}`
-      );
+      // const response = await axios.put(
+      //   `http://localhost:8800/user/favorite/put/${fakeUserId}/${props.placeId}`
+      // );
 
       console.log(response);
       setData(response.data);
