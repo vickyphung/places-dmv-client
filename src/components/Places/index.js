@@ -89,7 +89,7 @@ const Places = (props) => {
                     })}
                   </div>
                   {/* LIKES */}
-
+{/* 
                   <div className="place-favs">
                   <div className="fav-count">
                     <p><span className="fav-heart">💜</span> {place.favorites}</p>
@@ -97,7 +97,7 @@ const Places = (props) => {
                   <div className="place-fav-btn">
                   <AddFavorite placeId={place._id} userId={props.userId} />
                   </div>
-                  </div>
+                  </div> */}
 
                   {/* //DETAILS */}
                   {/* <div>
@@ -174,8 +174,8 @@ const Places = (props) => {
                           ✏️ edit
                         </button> */}
                   {/* DELETE                       */}
-                  <br />
-                        <button
+                  
+                        {/* <button
                           className="editBtn"
                           title="delete place"
                           onClick={() => {
@@ -183,7 +183,7 @@ const Places = (props) => {
                           }}
                         >
                           ❌ delete
-                        </button>
+                        </button> */}
                 </div>
               </div>
             );
