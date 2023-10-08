@@ -26,8 +26,7 @@ const Places = (props) => {
     const fetchData = async () => {
       // const response = await axios.get("http://localhost:8800/places");
       const response = await axios.get(
-        // "https://placeswithbear.herokuapp.com/places" ||
-        "http://localhost:8800/places",
+        "https://placeswithbear.herokuapp.com/places",
         {
           headers: {
             "JWT-Token": localStorage.jwtToken,
