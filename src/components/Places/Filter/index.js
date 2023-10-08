@@ -7,7 +7,7 @@ function Filter() {
   const dc = async () => {
     const response = await axios.get(
     
-        `http://localhost:8800/places/state/DC`
+        `https://placeswithbear.herokuapp.com/places/state/DC`
     );
     console.log(response);
     setPlaces(response.data.places);
